@@ -63,12 +63,9 @@
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
-        <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
-          <!--Change this to your karaf deploy directory -->
-          <outputDirectory>C:\Program Files (x86)\Jenkins\workspace\172jenkinstest</outputDirectory>
-        </configuration>
+        
       </plugin>
     </plugins>
+    <finalName>Knockout</finalName>
   </build>
 </project>
