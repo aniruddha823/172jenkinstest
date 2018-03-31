@@ -63,7 +63,10 @@
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
-        
+        <configuration>
+          <warSourceDirectory>WebContent</warSourceDirectory>
+          <outputDirectory>C:\Program Files (x86)\Jenkins\workspace\172jenkinstest\target</outputDirectory>
+        </configuration>
       </plugin>
     </plugins>
     <finalName>Knockout</finalName>
